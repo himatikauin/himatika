@@ -39,46 +39,46 @@ export const events = [
     ],
     aftermovieUrl: "https://youtu.be/ETuY2fCgCz8?si=YKxoY7HxpaKq_srJ"
   },
-  {
-    id: 3,
-    title: "TEOREMA",
-    theme: "Ta'aruf Edukasi Orientasi Jurusan Pendidikan Matematika",
-    description:
-      "TEOREMA adalah kegiatan pengenalan program studi dan lingkungan kampus bagi mahasiswa baru Pendidikan Matematika, dikemas secara edukatif dan menyenangkan.",
-      logoUrl: [[logoTeo]],
-    images: [
-      "https://picsum.photos/seed/teorema1/400/300",
-      "https://picsum.photos/seed/teorema2/400/300",
-      "https://picsum.photos/seed/teorema3/400/300"
-    ],
-    aftermovieUrl: "https://youtu.be/PQ5KT2fKVDo?si=7GwvVCVLwSu56kTW"
-  },
-  {
-    id: 4,
-    title: "STUKOM",
-    theme: "Studi Komparatif",
-    description:
-    "STUKOM adalah program studi banding ke Himpunan Mahasiswa Matematika di universitas lain untuk bertukar pikiran, memperluas wawasan, dan menjalin jejaring.",
-    logoUrl: "https://picsum.photos/seed/stukom/400/400",
-    images: [
-      "https://picsum.photos/seed/stukom1/400/300",
-      "https://picsum.photos/seed/stukom2/400/300"
-    ]
-  },
-  {
-    id: 5,
-    title: "GAMMA FEST",
-    theme: "Generation of Mathematics Education Festival",
-    description:
-      "GAMMA FEST adalah serangkaian acara perlombaan internal yang bertujuan untuk mengasah kemampuan akademik dan non-akademik mahasiswa Pendidikan Matematika UIN Sunan Gunung Djati Bandung.",
-    logoUrl: "https://picsum.photos/seed/gammafest/400/400",
-    images: [
-      "https://picsum.photos/seed/gammafest1/400/300",
-      "https://picsum.photos/seed/gammafest2/400/300",
-      "https://picsum.photos/seed/gammafest3/400/300"
-    ],
-    aftermovieUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
+  // {
+  //   id: 3,
+  //   title: "TEOREMA",
+  //   theme: "Ta'aruf Edukasi Orientasi Jurusan Pendidikan Matematika",
+  //   description:
+  //     "TEOREMA adalah kegiatan pengenalan program studi dan lingkungan kampus bagi mahasiswa baru Pendidikan Matematika, dikemas secara edukatif dan menyenangkan.",
+  //     logoUrl: [[logoTeo]],
+  //   images: [
+  //     "https://picsum.photos/seed/teorema1/400/300",
+  //     "https://picsum.photos/seed/teorema2/400/300",
+  //     "https://picsum.photos/seed/teorema3/400/300"
+  //   ],
+  //   aftermovieUrl: "https://youtu.be/PQ5KT2fKVDo?si=7GwvVCVLwSu56kTW"
+  // },
+  // {
+  //   id: 4,
+  //   title: "STUKOM",
+  //   theme: "Studi Komparatif",
+  //   description:
+  //   "STUKOM adalah program studi banding ke Himpunan Mahasiswa Matematika di universitas lain untuk bertukar pikiran, memperluas wawasan, dan menjalin jejaring.",
+  //   logoUrl: "https://picsum.photos/seed/stukom/400/400",
+  //   images: [
+  //     "https://picsum.photos/seed/stukom1/400/300",
+  //     "https://picsum.photos/seed/stukom2/400/300"
+  //   ]
+  // },
+  // {
+  //   id: 5,
+  //   title: "GAMMA FEST",
+  //   theme: "Generation of Mathematics Education Festival",
+  //   description:
+  //     "GAMMA FEST adalah serangkaian acara perlombaan internal yang bertujuan untuk mengasah kemampuan akademik dan non-akademik mahasiswa Pendidikan Matematika UIN Sunan Gunung Djati Bandung.",
+  //   logoUrl: "https://picsum.photos/seed/gammafest/400/400",
+  //   images: [
+  //     "https://picsum.photos/seed/gammafest1/400/300",
+  //     "https://picsum.photos/seed/gammafest2/400/300",
+  //     "https://picsum.photos/seed/gammafest3/400/300"
+  //   ],
+  //   aftermovieUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  // },
   // {
   //   id: 6,
   //   title: "MUSKOM",

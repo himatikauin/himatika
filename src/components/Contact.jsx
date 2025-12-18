@@ -75,7 +75,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              placeholder="Nama: Bahlil"
+              placeholder="Nama:"
               required
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ouline-2"
             />
@@ -103,7 +103,7 @@ const Contact = () => {
             <textarea
               name="message"
               rows={4}
-              placeholder="Pesan: Admin Ganteng"
+              placeholder="Pesan:"
               required
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ouline-2"
             ></textarea>
