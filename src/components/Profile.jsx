@@ -40,7 +40,7 @@ const Profile = () => {
 
           <div className="max-w-3xl mx-auto">
             <p className="text-md leading-relaxed text-gray-700 mb-4">
-              Sejak berdiri pada 2 Desember 1999, HIMATIKA UIN Sunan Gunung Djati Bandung menjadi ruang tumbuh bagi mahasiswa Pendidikan Matematika—tempat untuk mengasah akademik, menumbuhkan kreativitas, dan berkontribusi bagi masyarakat melalui semangat Tridarma Perguruan Tinggi.
+              Sejak berdiri pada 2 Desember 1999, HIMATIKA UIN Sunan Gunung Djati Bandung menjadi ruang tumbuh bagi mahasiswa Pendidikan Matematika tempat untuk mengasah akademik, menumbuhkan kreativitas, dan berkontribusi bagi masyarakat melalui semangat Tridarma Perguruan Tinggi.
             </p>
             <p className="text-md leading-relaxed text-gray-700 mb-4">
               {cabinetData.deskripsi}

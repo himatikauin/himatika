@@ -41,8 +41,8 @@ const Contact = () => {
               >
                 <Building className="text-3xl text-brand-dark" />
                 <p className="text-gray-800 leading-relaxed">
-                  Kampus II UIN Sunan Gunung Djati Bandung <br />
-                  Jl. Cimincrang, Cimenerang, Kec. Gedebage, Kota Bandung, Jawa Barat
+                  Sekretariat: Gd. Student Center Lt. 3 kampus 1 UIN Sunan Gunung Djati Bandung
+                  Jl. A. H. Nasution No. 105 Cibiru-Bandung 40614
                 </p>
               </div>
               <a 
@@ -51,7 +51,7 @@ const Contact = () => {
                 href="http://wa.me/6285159950656"  
               >
                 <WhatsUp className="text-2xl text-brand-dark" />
-                <p className="text-gray-800 border-b-2 border-brand-dark mb-1">+62 812-3456-7890</p>
+                <p className="text-gray-800 border-b-2 border-brand-dark mb-1">+62-851-5995-0656</p>
               </a>
               <a 
                 className="flex items-center gap-2"
@@ -122,7 +122,7 @@ const Contact = () => {
         {/* Maps */}
         <div className="mt-16 w-full h-[350px] md:h-[420px] rounded-xl overflow-hidden border border-gray-300 shadow">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6415.998713870262!2d107.70268313377309!3d-6.938630842373842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c2dcfd65e3b3%3A0x23806c141c2f45f5!2sKampus%20II%20UIN%20Sunan%20Gunung%20Djati%20Bandung%20(%20kampus%20merdeka)!5e0!3m2!1sid!2sid!4v1764302955594!5m2!1sid!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24795.078878790464!2d107.70737059999999!3d-6.9369369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c302db3434f5%3A0xdf4aacdb8618199c!2sUIN%20Sunan%20Gunung%20Djati%20Bandung!5e1!3m2!1sid!2sid!4v1766065796321!5m2!1sid!2sid"
             width="100%"
             height="100%"
             allowFullScreen=""

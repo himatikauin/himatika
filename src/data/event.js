@@ -20,7 +20,7 @@ export const events = [
     title: "ABSOLUTE",
     theme: "Abillity Skill and Learning Math Competition",
     description:
-      "ABSOLUTE (Accurate, Brave, Smart, Outstanding, and Talented) merupakan lomba matematika tingkat nasional yang diselenggarakan oleh HIMATIKA untuk siswa SMA/sederajat. Acara ini bertujuan untuk meningkatkan minat dan kemampuan siswa dalam bidang matematika.",
+      "ABSOLUTE Abillity Skill and Learning Math Competition, merupakan Event internal yang diselenggarakan oleh HIMATIKA UIN SGD Bandung dan merupakan Kegiatan besar pertama yang dilaksanakan. Acara ini bertujuan untuk meningkatkan minat dan kemampuan Mahasiswa dalam bidang matematika, maupun bakat.",
     logoUrl: [[logoAbsolute]],
     images: [
       [absolute1],[absolute2],[absolute3],[absolute4],[absolute5]
@@ -30,9 +30,9 @@ export const events = [
   {
     id: 2,
     title: "HIMATIKA Mengabdi",
-    theme: "Pengabdian kepada Masyarakat bersama HIMATIKA",
+    theme: "The Harmony Of Action And Tradition In Cultivating The Spirit Of Learning And Innovation For Society",
     description:
-      "Sebagai wujud dari Tridarma Perguruan Tinggi, HIMATIKA Mengabdi adalah program pengabdian kepada masyarakat di berbagai daerah. Kegiatan ini meliputi bakti sosial, pengajaran matematika, dan penyuluhan pendidikan.",
+      "Sebagai wujud dari Tridarma Perguruan Tinggi, HIMATIKA Mengabdi adalah program pengabdian kepada masyarakat di daerah tertentu. Kegiatan ini meliputi HIMATIKA Mengajar, seminar, kegiatan UMKM, kerja bakti, dan Pentas seni.",
     logoUrl: [[logoHimabdi]],
     images: [
       [himaabdi1],[himaabdi2],[himaabdi3],[himaabdi4],[himaabdi5]
