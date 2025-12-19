@@ -18,7 +18,7 @@ const Navbar = ({ navLinks, activeSection }) => {
     <>
       {/* ================= HEADER ================= */}
       <header
-        className={`fixed top-5 left-5 right-5 z-50 rounded-[50px]
+        className={`fixed top-2 left-5 right-5 z-50 rounded-[50px]
         sm:top-0 sm:left-0 sm:right-0 sm:rounded-none
         transition-all duration-300 ease-out
         ${

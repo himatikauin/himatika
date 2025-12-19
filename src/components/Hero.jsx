@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       <div className="absolute inset-0 bg-gradient-to-top from-brand-dark via-brand-dark/50 to-transparent"></div>
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-left md:text-center">
-        <h1 className="text-6xl font-extrabold leading-tight text-white drop-shadow-lg">
+        <h1 className="text-5xl font-extrabold leading-tight text-white drop-shadow-lg">
           Lebih dari Sekedar Angka
           <br />
           Kami adalah Keluarga
