@@ -25,7 +25,7 @@ export const events = [
     images: [
       [absolute1],[absolute2],[absolute3],[absolute4],[absolute5]
     ],
-    aftermovieUrl: "https://youtu.be/vjPsl5nw7Fg?si=i1Zd81z1YzopVTwj"
+    // aftermovieUrl: "https://youtu.be/vjPsl5nw7Fg?si=i1Zd81z1YzopVTwj"
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ export const events = [
     images: [
       [himaabdi1],[himaabdi2],[himaabdi3],[himaabdi4],[himaabdi5]
     ],
-    aftermovieUrl: "https://youtu.be/ETuY2fCgCz8?si=YKxoY7HxpaKq_srJ"
+    // aftermovieUrl: "https://youtu.be/ETuY2fCgCz8?si=YKxoY7HxpaKq_srJ"
   },
   // {
   //   id: 3,
