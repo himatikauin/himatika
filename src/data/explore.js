@@ -43,7 +43,7 @@ export const exploreItems = [
     id: 6,
     title: "[AFTER MOVIE – HIMATIKA Mengabdi 2025]",
     thumbnailUrl: "https://i.ytimg.com/vi/ETuY2fCgCz8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDcXRdFkIZ5l9b5rFr_7WkJOBkUmA",
-    time: "Juli",
+    time: "Jun-Jul",
     tag: "Video",
     link: "https://youtu.be/ETuY2fCgCz8?si=YKxoY7HxpaKq_srJ"
   },
@@ -91,7 +91,7 @@ export const exploreItems = [
     id: 12,
     title: "[AFTER MOVIE - GAMMA FEST 2025]",
     thumbnailUrl: "https://i.ytimg.com/vi/jOZpLWQZdfY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBOwYs8ZnpZ2ET1NVPm62aV8Vnlww",
-    time: "23 Des 2025",
+    time: "Okt-Des",
     tag: "Video",
     link: "https://youtu.be/jOZpLWQZdfY?si=T-YdDEXbrKAGZn1W"
   },
