@@ -29,8 +29,8 @@ const Contact = () => {
               Kenali Kami Lebih Dekat
             </h2>
             {/* Paragraf*/}
-            <div className="border-l-4 border-brand-dark pl-4 mb-10">
-              <p className="text-gray-700 text-lg leading-relaxed max-w-3xl font-body">
+            <div className="border-l-2 border-brand-dark pl-4 mb-10">
+              <p className="text-gray-700 leading-relaxed max-w-3xl font-body">
                 Punya pertanyaan, saran, atau ingin bekerja sama? Kami siap membantu Anda.  
                 Kirimkan pesan melalui formulir dan sosial media kami, atau kunjungi lokasi kami untuk mendapatkan informasi lebih lanjut.
               </p>
@@ -120,7 +120,7 @@ const Contact = () => {
           </form>
         </div>
         {/* Maps */}
-        <div className="mt-16 w-full h-[350px] md:h-[420px] rounded-xl overflow-hidden border border-gray-300 shadow">
+        <div className="mt-16 w-full h-[350px] md:h-[420px] rounded-md overflow-hidden border border-gray-300 shadow">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24795.078878790464!2d107.70737059999999!3d-6.9369369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c302db3434f5%3A0xdf4aacdb8618199c!2sUIN%20Sunan%20Gunung%20Djati%20Bandung!5e1!3m2!1sid!2sid!4v1766065796321!5m2!1sid!2sid"
             width="100%"

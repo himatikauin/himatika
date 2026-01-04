@@ -1,10 +1,6 @@
 // --- components/Profile.jsx ---
 import React, { useState } from "react";
-// Perbaiki import: nama file 'kabinet' (bukan cabinets) dan nama variabel 'cabinetData'
 import { cabinetData } from "../data/kabinet"; 
-import { bidangList } from "../data/bidang";
-import BidangModal from "./BidangModal";
-import logoHimatikaPlain from "../assets/brand/himaPlain.webp"
 
 const Profile = () => {
   const [selectedBidang, setSelectedBidang] = useState(null);
@@ -17,12 +13,6 @@ const Profile = () => {
         {/* --- IDENTITAS KABINET --- */}
         <div className="text-center mb-12">
           <div className="flex mb-6 gap-3 justify-center">
-            {/* Logo Hima + Kabinet*/}
-            {/* <img 
-              src={logoHimatikaPlain} 
-              alt="Logo Himatika" 
-              className="h-40 drop-shadow-lg"
-            /> */}
             <img
               src={cabinetData.logo}
               alt={`Logo ${cabinetData.nama}`}
@@ -70,43 +60,6 @@ const Profile = () => {
         </div>
 
         <div className="border-b-4 border-brand-red/50"></div>
-
-        {/* --- GRID BIDANG --- */}
-        {/* <div className="text-center mb-10">
-          <h3 className="text-3xl font-title text-brand-dark font-bold mb-2">
-            Struktur & Bidang
-          </h3>
-          <p className="text-gray-600">Klik pada logo bidang untuk melihat detail</p>
-        </div> */}
-
-        {/* <div className="flex flex-row content-center justify-evenly flex-wrap  items-center gap-2">
-          {bidangList.map((bidang) => (
-            <div
-              key={bidang.id}
-              onClick={() => setSelectedBidang(bidang)}
-              className="cursor-pointer group flex flex-col items-center"
-            >
-              <div className="bg-white w-20 h-20 flex items-center justify-center rounded-full shadow-md group-hover:shadow-xl transition-all duration-300 border-4 border-transparent">
-                <img 
-                    src={bidang.logo} 
-                    alt={bidang.name}
-                    className="h-16 w-16 object-contain" 
-                />
-              </div>
-              <p className="mt-4 font-bold text-lg text-brand-dark group-hover:text-brand-yellow transition-colors">
-                {bidang.name}
-              </p>
-            </div>
-          ))}
-        </div> */}
-
-        {/* --- MODAL --- */}
-        {selectedBidang && (
-          <BidangModal 
-            bidang={selectedBidang} 
-            onClose={() => setSelectedBidang(null)} 
-          />
-        )}
       </div>
     </section>
     

@@ -1,18 +1,15 @@
-import logoAbsolute from "../assets/brand/logoAbsolute.webp"
-import logoHimabdi from "../assets/brand/logoHimabdi.webp"
-import logoTeo from "../assets/brand/logoTeo.webp"
-import logo from "../assets/brand/hima.webp"
-
-import absolute1 from "../assets/img/event/absolute/1.webp"
-import absolute2 from "../assets/img/event/absolute/2.webp"
-import absolute3 from "../assets/img/event/absolute/3.webp"
-import absolute4 from "../assets/img/event/absolute/4.webp"
-import absolute5 from "../assets/img/event/absolute/5.webp"
-import himaabdi1 from "../assets/img/event/himaabdi/1.webp"
-import himaabdi2 from "../assets/img/event/himaabdi/2.webp"
-import himaabdi3 from "../assets/img/event/himaabdi/3.webp"
-import himaabdi4 from "../assets/img/event/himaabdi/4.webp"
-import himaabdi5 from "../assets/img/event/himaabdi/5.webp"
+const getImages = (folderName, count) => {
+  return Array.from({ length: count }, (_, i) => {
+    // Path bersih tanpa spasi aneh
+    return `/assets/img/event/${folderName}/${i + 1}.webp`;
+  });
+};
+// Khusus untuk Logo (jika logo juga ada di ImageKit dengan pola nama tertentu atau nama tetap)
+// Jika logo namanya berbeda-beda, tulis manual path-nya.
+const getLogo = (folderName) => {
+   // Asumsi logo namanya "logo.webp" di dalam folder tersebut, sesuaikan jika beda
+   return `assets/brand/logo${folderName}.webp` 
+}
 
 export const events = [
   {
@@ -20,75 +17,58 @@ export const events = [
     title: "ABSOLUTE",
     theme: "Abillity Skill and Learning Math Competition",
     description:
-      "ABSOLUTE Abillity Skill and Learning Math Competition, merupakan Event internal yang diselenggarakan oleh HIMATIKA UIN SGD Bandung dan merupakan Kegiatan besar pertama yang dilaksanakan. Acara ini bertujuan untuk meningkatkan minat dan kemampuan Mahasiswa dalam bidang matematika, maupun bakat.",
-    logoUrl: [[logoAbsolute]],
-    images: [
-      [absolute1],[absolute2],[absolute3],[absolute4],[absolute5]
-    ],
-    // aftermovieUrl: "https://youtu.be/vjPsl5nw7Fg?si=i1Zd81z1YzopVTwj"
+      "ABSOLUTE Abillity Skill and Learning Math Competition, merupakan Event yang diselenggarakan oleh HIMATIKA UIN SGD Bandung dan merupakan Kegiatan besar pertama yang dilaksanakan. Acara ini bertujuan untuk meningkatkan minat dan kemampuan Mahasiswa dalam bidang matematika, mapun bakat.",
+    logoUrl: ["assets/brand/logoAbsolute.webp"], 
+    images: getImages("absolute", 5), 
+    aftermovieUrl: ""
   },
   {
     id: 2,
     title: "HIMATIKA Mengabdi",
-    theme: "The Harmony Of Action And Tradition In Cultivating The Spirit Of Learning And Innovation For Society",
+    theme: "Pengabdian kepada Masyarakat bersama HIMATIKA",
     description:
-      "Sebagai wujud dari Tridarma Perguruan Tinggi, HIMATIKA Mengabdi adalah program pengabdian kepada masyarakat di daerah tertentu. Kegiatan ini meliputi HIMATIKA Mengajar, seminar, kegiatan UMKM, kerja bakti, dan Pentas seni.",
-    logoUrl: [[logoHimabdi]],
-    images: [
-      [himaabdi1],[himaabdi2],[himaabdi3],[himaabdi4],[himaabdi5]
-    ],
-    // aftermovieUrl: "https://youtu.be/ETuY2fCgCz8?si=YKxoY7HxpaKq_srJ"
+      "Sebagai wujud pemenuhan Tri Dharma Perguruan Tinggi, khususnya pada aspek pengabdian kepada masyarakat. Melalui kegiatan ini, mahasiswa didorong untuk menumbuhkan dan mengembangkan kesadaran sosial sehingga lebih peka terhadap kondisi masyarakat. Selain itu, kegiatan ini juga menjadi wadah bagi Mahasiswa Pendidikan Matematika untuk mengasah kreativitas, serta berkontribusi nyata dalam memberikan manfaat bagi lingkungan sekitar. ",
+    logoUrl: ["assets/brand/logoHimabdi.webp"],
+    // Ganti angka 8 dengan jumlah foto di folder 'himaabdi'
+    images: getImages("himaabdi", 5), 
+    aftermovieUrl: ""
   },
-  // {
-  //   id: 3,
-  //   title: "TEOREMA",
-  //   theme: "Ta'aruf Edukasi Orientasi Jurusan Pendidikan Matematika",
-  //   description:
-  //     "TEOREMA adalah kegiatan pengenalan program studi dan lingkungan kampus bagi mahasiswa baru Pendidikan Matematika, dikemas secara edukatif dan menyenangkan.",
-  //     logoUrl: [[logoTeo]],
-  //   images: [
-  //     "https://picsum.photos/seed/teorema1/400/300",
-  //     "https://picsum.photos/seed/teorema2/400/300",
-  //     "https://picsum.photos/seed/teorema3/400/300"
-  //   ],
-  //   aftermovieUrl: "https://youtu.be/PQ5KT2fKVDo?si=7GwvVCVLwSu56kTW"
-  // },
-  // {
-  //   id: 4,
-  //   title: "STUKOM",
-  //   theme: "Studi Komparatif",
-  //   description:
-  //   "STUKOM adalah program studi banding ke Himpunan Mahasiswa Matematika di universitas lain untuk bertukar pikiran, memperluas wawasan, dan menjalin jejaring.",
-  //   logoUrl: "https://picsum.photos/seed/stukom/400/400",
-  //   images: [
-  //     "https://picsum.photos/seed/stukom1/400/300",
-  //     "https://picsum.photos/seed/stukom2/400/300"
-  //   ]
-  // },
-  // {
-  //   id: 5,
-  //   title: "GAMMA FEST",
-  //   theme: "Generation of Mathematics Education Festival",
-  //   description:
-  //     "GAMMA FEST adalah serangkaian acara perlombaan internal yang bertujuan untuk mengasah kemampuan akademik dan non-akademik mahasiswa Pendidikan Matematika UIN Sunan Gunung Djati Bandung.",
-  //   logoUrl: "https://picsum.photos/seed/gammafest/400/400",
-  //   images: [
-  //     "https://picsum.photos/seed/gammafest1/400/300",
-  //     "https://picsum.photos/seed/gammafest2/400/300",
-  //     "https://picsum.photos/seed/gammafest3/400/300"
-  //   ],
-  //   aftermovieUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  // },
+  {
+    id: 3,
+    title: "TEOREMA",
+    theme: "Ta'aruf Edukasi Orientasi Jurusan Pendidikan Matematika",
+    description:
+      "TEOREMA merupakan bentuk pembinaan mahasiswa baru untuk menumbuhkan kesadaran spiritual, intelektual, dan sosial melalui pengalaman belajar yang menyeluruh. Program kerja ini diorientasikan pada penanaman nilai beradab, berwawasan, kreatif, serta bersinergi agar mahasiswa mampu berkembang secara utuh. Dengan begitu, TEOREMA menjadi sarana menanamkan nilai keislaman, pendidikan, dan keorganisasian sebagai fondasi awal berproses di HIMATIKA.",
+    logoUrl: ["assets/brand/logoTeo.webp"],
+    images: getImages("teorema", 10), // Sesuaikan jumlah foto
+    aftermovieUrl: ""
+  },
+  {
+    id: 4,
+    title: "STUKOM",
+    theme: "Studi Komparatif: HIMATIKA UIN X HIMATIKA ITB X GUMATIKA IPB",
+    description:
+      "Studi Komparatif merupakan kegiatan kunjungan dan forum diskusi yang diselenggarakan HIMATIKA UIN Sunan Gunung Djati sebagai sarana pertukaran gagasan, pengalaman, serta wawasan keorganisasian dengan himpunan mahasiswa lain. Kegiatan ini difokuskan pada pemaparan program kerja, sistem kepengurusan, dan manajemen organisasi guna membandingkan serta mengambil praktik-praktik terbaik yang dapat diadaptasi, sehingga tercipta hubungan kelembagaan yang harmonis dan peluang kerja sama yang berkelanjutan.",
+    logoUrl: null,
+    images: getImages("stukom", 10), // Sesuaikan jumlah foto
+  },
+  {
+    id: 5,
+    title: "GAMMA FEST",
+    theme: "Generation of Mathematics Education Festival",
+    description:
+      "GAMMA FEST adalah event terakhir yang diselenggarakan oleh HIMATIKA sekaligus sebagai perayaan milad HIMATIKA UIN SGD Bandung.",
+    logoUrl: ["assets/brand/logoGamma.webp"],
+    images: getImages("gamma", 12), // Sesuaikan jumlah foto
+    aftermovieUrl: ""
+  },
   // {
   //   id: 6,
   //   title: "MUSKOM",
   //   theme: "Musyawarah Komisariat",
   //   description:
   //     "STUKOM (Studi Komparatif) adalah program studi banding ke Himpunan Mahasiswa Matematika di universitas lain untuk bertukar pikiran, memperluas wawasan, dan menjalin jejaring.",
-  //     logoUrl: "https://picsum.photos/seed/stukom/400/400",
-  //   images: [
-  //     "https://picsum.photos/seed/stukom1/400/300",
-  //     "https://picsum.photos/seed/stukom2/400/300"
-  //   ]
+  //   logoUrl: [[logoStukom]],
+  //   images: getImagesFromArray(absoluteFiles), 
   // }
 ]

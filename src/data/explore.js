@@ -1,5 +1,3 @@
-import thumbMathlib from "../assets/img/matlib.webp"
-
 export const exploreItems = [
   {
     id: 1,
@@ -20,7 +18,7 @@ export const exploreItems = [
   {
     id: 3,
     title: "MatLib: Matematika Library",
-    thumbnailUrl: [thumbMathlib],
+    thumbnailUrl: "https://ik.imagekit.io/mddeta8rw/assets/img/matlib.webp?updatedAt=1767177279743",
     time: "Jan-Des",
     tag: "MatLib",
     link: "https://sites.google.com/view/mathlib-himatika/"
@@ -53,7 +51,7 @@ export const exploreItems = [
     id: 7,
     title: "🎙 [HP #S02/E02] Ngobrol Tentang Self Awareness",
     thumbnailUrl: "https://i.ytimg.com/vi/YHCfs8XJe6A/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAMp7M_AYLfORRsB_0JR8c3q_uFbw",
-    time: "12 November 2025",
+    time: "12 Nov 2025",
     tag: "Podcast",
     link: "https://youtu.be/YHCfs8XJe6A?si=csqO3e8UMqX8zbds"
   },
@@ -61,7 +59,7 @@ export const exploreItems = [
     id: 8,
     title: "Kenakalan Remaja dan Jalan Militer: Solusi atau Sementara?",
     thumbnailUrl: "https://asset.kompas.com/crops/S1bhYug8CXtHHt4xOrvOMnLI2Hg=/0x0:4160x2773/1200x800/data/photo/2025/05/05/68181d1e0ef1f.jpg",
-    time: "Minggu, 25 Mei 2025",
+    time: "25 Mei 2025",
     tag: "Artikel",
     link: "https://himatikauinsgd.medium.com/kenakalan-remaja-dan-jalan-militer-solusi-atau-sementara-5a130aa80cac"
   },
@@ -77,7 +75,7 @@ export const exploreItems = [
     id: 10,
     title: "🎙 [HP #S02/E03] Berbincang Tentang Self Improvement",
     thumbnailUrl: "https://i.ytimg.com/vi/9bAfe1PPu44/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC53CyY8NkVcQQSLERYzaWyW4ZNVA",
-    time: "15 Desember 2025",
+    time: "15 Des 2025",
     tag: "Podcast",
     link: "https://youtu.be/9bAfe1PPu44?si=OrIUIvmFKY9svOOP"
   },
@@ -85,8 +83,24 @@ export const exploreItems = [
     id: 11,
     title: "🎙 [HP #S02/E04] Sharing Session Horror Story",
     thumbnailUrl: "https://i.ytimg.com/vi/GtV6it19F6M/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDyzV5clzthmM468CMbIDVbErqlhw",
-    time: "15 Desember 2025",
+    time: "15 Des 2025",
     tag: "Podcast",
     link: "https://youtu.be/GtV6it19F6M?si=GWpskbMM4w15XvEF"
   },
-]
+  {
+    id: 12,
+    title: "[AFTER MOVIE - GAMMA FEST 2025]",
+    thumbnailUrl: "https://i.ytimg.com/vi/jOZpLWQZdfY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBOwYs8ZnpZ2ET1NVPm62aV8Vnlww",
+    time: "23 Des 2025",
+    tag: "Video",
+    link: "https://youtu.be/jOZpLWQZdfY?si=T-YdDEXbrKAGZn1W"
+  },
+  {
+    id: 13,
+    title: "[AFTER MOVIE - Kabinet ESCALOGIA 2025]",
+    thumbnailUrl: "https://ik.imagekit.io/mddeta8rw/assets/kabinetEsca.jpg?updatedAt=1767177280111",
+    time: "4 Jan 2026",
+    tag: "Video",
+    link: "https://www.instagram.com/reel/DTFRdwIkdWZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  ]

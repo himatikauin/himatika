@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react"
 import { MenuIcon, XIcon } from "./icons"
-import logoHimatika from "../assets/brand/hima.webp"
 
 const Navbar = ({ navLinks, activeSection }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+
+  // URL Logo ImageKit (ditambah ?tr=w-100 agar ringan)
+  const logoHimatika = "https://ik.imagekit.io/mddeta8rw/assets/brand/hima.webp?tr=w-100";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,9 +20,9 @@ const Navbar = ({ navLinks, activeSection }) => {
     <>
       {/* ================= HEADER ================= */}
       <header
-        className={`fixed top-2 left-5 right-5 z-50 rounded-[50px]
+        className={`fixed top-5 left-5 right-5 z-50 rounded-[50px]
         sm:top-0 sm:left-0 sm:right-0 sm:rounded-none
-        transition-all duration-300 ease-out
+        transition-all duration-300 ease-out 
         ${
           isScrolled || isMenuOpen
             ? "bg-white/30 backdrop-blur-sm shadow-md"
@@ -32,9 +34,10 @@ const Navbar = ({ navLinks, activeSection }) => {
             {/* Logo */}
             <a href="#home" className="flex items-center gap-2">
               <img
-                src={logoHimatika}
+                src={logoHimatika} // Menggunakan URL ImageKit
                 alt="Logo HIMATIKA"
                 className="w-12"
+                // Logo Navbar jangan di-lazy load karena harus muncul duluan
               />
             </a>
 

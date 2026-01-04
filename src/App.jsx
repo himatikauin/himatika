@@ -4,7 +4,6 @@ import Hero from "./components/Hero"
 import Profile from "./components/Profile"
 import ExploreSection from "./components/ExploreSection"
 import EventSection from "./components/EventSection"
-// import Timeline from "./components/Timeline";
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import EventModal from "./components/EventModal"
@@ -74,7 +73,6 @@ const App = () => {
       <main>
         <Hero />
         <Profile />
-        {/* <Timeline /> */}
         <ExploreSection />
         <EventSection onEventClick={handleEventClick} />
         <Contact />

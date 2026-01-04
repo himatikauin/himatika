@@ -10,7 +10,7 @@ tailwind.config = {
     },
     fontFamily: {
         title: ['Kanit', 'sans-serif'],
-        body: ['Lora', 'serif'],
+        body: ['Poppins', 'sans-serif'],
         alt: ['Poppins', 'sans-serif']
       }
     }

@@ -1,15 +1,13 @@
 // --- data/kabinet.js ---
-import LogoEsca from "../assets/brand/escaPlain.webp"; // Pastikan path ini benar
 
 export const cabinetData = {
   periode: "2025-2026",
   nama: "ESCALOGIA",
   moto: "Tumbuh Tinggi Bersama Harmoni",
-  // Ubah menjadi single variable jika hanya satu logo utama
-  logo: LogoEsca, 
+  logo: "https://ik.imagekit.io/mddeta8rw/assets/brand/escaPlain.webp?updatedAt=1767177281794", 
   
   deskripsi: `
-    Kabinet Escalogia melanjutkan perjalanan itu dengan membawa filosofi tentang pertumbuhan yang seimbang dan penuh harmoni. Setiap program, langkah, dan kolaborasi dirancang untuk mendorong peningkatan potensi baik secara organisasi maupun personal sehingga HIMATIKA semakin relevan, progresif, dan berdampak.
+    Kabinet Escalogia melanjutkan perjalanan itu dengan membawa filosofi tentang pertumbuhan yang seimbang dan penuh harmoni. Setiap program, langkah, dan kolaborasi dirancang untuk mendorong peningkatan potensi—baik secara organisasi maupun personal—sehingga HIMATIKA semakin relevan, progresif, dan berdampak.
 
     Di bawah spirit Escalogia, HIMATIKA hadir sebagai organisasi yang terus berkembang, menjaga nilai, dan bergerak menuju kecemerlangan bersama.
     `,

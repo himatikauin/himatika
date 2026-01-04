@@ -26,7 +26,15 @@
   font-family: var(--font-title);
 } */
 
-body{overflow-x: hidden;}
+/* File: src/index.css */
+
+
+/* Tambahkan ini */
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 body::-webkit-scrollbar{
   width: 0;
   background: transparent;
@@ -36,3 +44,4 @@ body::-webkit-scrollbar{
   width: 0;
   background: transparent; 
 }
+/* *{border: 1px red solid;} */
