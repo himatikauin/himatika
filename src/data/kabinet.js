@@ -7,7 +7,7 @@ export const cabinetData = {
   logo: "https://ik.imagekit.io/mddeta8rw/assets/brand/escaPlain.webp?updatedAt=1767177281794", 
   
   deskripsi: `
-    Kabinet Escalogia melanjutkan perjalanan itu dengan membawa filosofi tentang pertumbuhan yang seimbang dan penuh harmoni. Setiap program, langkah, dan kolaborasi dirancang untuk mendorong peningkatan potensi—baik secara organisasi maupun personal—sehingga HIMATIKA semakin relevan, progresif, dan berdampak.
+    Kabinet Escalogia melanjutkan perjalanan itu dengan membawa filosofi tentang pertumbuhan yang seimbang dan penuh harmoni. Setiap program, langkah, dan kolaborasi dirancang untuk mendorong peningkatan potensi baik secara organisasi maupun personal sehingga HIMATIKA semakin relevan, progresif, dan berdampak.
 
     Di bawah spirit Escalogia, HIMATIKA hadir sebagai organisasi yang terus berkembang, menjaga nilai, dan bergerak menuju kecemerlangan bersama.
     `,
