@@ -13,11 +13,11 @@ const Profile = () => {
         {/* --- IDENTITAS KABINET --- */}
         <div className="text-center mb-12">
           <div className="flex mb-6 gap-3 justify-center">
-            <img
+            {/* <img
               src={cabinetData.logo}
               alt={`Logo ${cabinetData.nama}`}
               className="h-20 sm:h-40 drop-shadow-lg"
-            />
+            /> */}
           </div>
           
           <h2 className="text-4xl font-title text-brand-dark font-bold uppercase mb-2">
