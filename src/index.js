@@ -19,13 +19,13 @@ tailwind.config = {
 
 
 // untuk mematikan akses ke inspect elemen
-// document.addEventListener("contextmenu", function(e){
-//   e.preventDefault();
-// }, false);
+document.addEventListener("contextmenu", function(e){
+  e.preventDefault();
+}, false);
 
-// document.addEventListener("keydown", function(e){
-//   if (e.ctrlKey || e.keyCode==123) {
-//     e.stopPropagation();
-//     e.preventDefault();
-//   }
-// });
+document.addEventListener("keydown", function(e){
+  if (e.ctrlKey || e.keyCode==123) {
+    e.stopPropagation();
+    e.preventDefault();
+  }
+});

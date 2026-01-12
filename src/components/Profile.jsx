@@ -36,7 +36,7 @@ const Profile = () => {
               {cabinetData.deskripsi}
             </p>
             <p className="text-brand-dark font-bold text-lg">
-              "{cabinetData.moto}"
+              {cabinetData.moto}
             </p>
           </div>
         </div>

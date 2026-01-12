@@ -1,23 +1,18 @@
 // --- data/kabinet.js ---
 
 export const cabinetData = {
-  periode: "2025-2026",
-  nama: "ESCALOGIA",
-  moto: "Tumbuh Tinggi Bersama Harmoni",
-  logo: "https://ik.imagekit.io/mddeta8rw/assets/brand/escaPlain.webp?updatedAt=1767177281794", 
+  periode: "2026-2027",
+  nama: "HIMATIKA",
+  moto: null,
+  logo: null, 
   
-  deskripsi: `
-    Kabinet Escalogia melanjutkan perjalanan itu dengan membawa filosofi tentang pertumbuhan yang seimbang dan penuh harmoni. Setiap program, langkah, dan kolaborasi dirancang untuk mendorong peningkatan potensi baik secara organisasi maupun personal sehingga HIMATIKA semakin relevan, progresif, dan berdampak.
+  deskripsi: null,
 
-    Di bawah spirit Escalogia, HIMATIKA hadir sebagai organisasi yang terus berkembang, menjaga nilai, dan bergerak menuju kecemerlangan bersama.
-    `,
-
-  visi: `“ESKALASI peran HIMATIKA UIN SGD Bandung sebagai organisasi mahasiswa yang erat, aspiratif, dan inovatif, guna menciptakan suasana kolaborasi yang berdampak berkalanjutan bagi seluruh civitas akademika Program Studi Pendidikan Matematika.”`,
+  visi: `“Mewujudkan HIMATIKA yang Unggul, Optimal, serta Transformatif melalui kinerja yang Efisien dan Bersinergi.”`,
 
   misi: [
-    "Membangun suasana internal HIMATIKA yang kondusif dan penuh rasa kekeluargaan, guna memperkuat sinergi seluruh elemen HIMATIKA dalam mencapai tujuan bersama.",
-    "Optimalisasi peran HIMATIKA sebagai wadah aspirasi mahasiswa Program Studi Pendidikan Matematika melalui komunikasi yang efektif dan transparan.",
-    "Mendorong inovasi dan kreativitas dalam setiap program kerja HIMATIKA.",
-    "Menciptakan lingkungan kolaboratif yang inklusif guna mengembangkan potensi melalui berbagai kegiatan kemahasiswaan."
+    "Optimalisasi minat serta bakat mahasiswa guna meningkatkan prestasi secara bertingkat.",
+    "Mendorong kolaborasi serta sinergi guna mencapai tujuan bersama.",
+    "Mendorong semangat transformatif dan inovatif guna menciptakan lingkungan organisasi yang adaptif dan progressif"
   ]
 };
